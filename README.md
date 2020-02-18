@@ -8,3 +8,4 @@ Minimal paging model and extensions for .NET Core projects
 - IQueryableExtensions: Extension to apply the values from a PageModel instance to any IQueryable.
 
 *Both extensions default to 0 if any value is missing.
+** Query parameters names are harcoded to "skip" and "take" all lowercase characters.
